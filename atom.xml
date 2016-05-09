@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanqiang.site/"/>
-  <updated>2016-05-09T03:32:49.000Z</updated>
+  <updated>2016-05-09T03:35:01.000Z</updated>
   <id>http://fanqiang.site/</id>
   
   <author>
@@ -20,13 +20,14 @@
     <link href="http://fanqiang.site/2016/05/09/Apollo-H.html"/>
     <id>http://fanqiang.site/2016/05/09/Apollo-H.html</id>
     <published>2016-05-09T03:05:10.000Z</published>
-    <updated>2016-05-09T03:32:49.000Z</updated>
+    <updated>2016-05-09T03:35:01.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Meta-Description&quot;&gt;&lt;a href=&quot;/2016/05/09/#Meta-Description&quot; class=&quot;headerlink&quot; title=&quot;Meta Description&quot;&gt;&lt;/a&gt;Meta Description&lt;/h2&gt;&lt;p&gt;如果你想设置页面的 meta description 信息，请在每篇 markdown 文件的头部添加 &lt;code&gt;desc&lt;/code&gt; 字段信息——更实用的方式是在 scaffolds 文件夹中，将 &lt;code&gt;desc&lt;/code&gt; 配置到常用模板中去，示例如下：&lt;/p&gt;
 &lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;title: Lorem ipsum dolor&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 2015-12-31 14:49:13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;desc: Lorem ipsum dolor sit amet, consectetur.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam saepe ex ut. Deleniti culpa inventore consectetur nam saepe!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;生成结果:&lt;/p&gt;
 &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;content&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;Lorem ipsum dolor sit amet, consectetur.&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;如果没有配置该信息，Hexo-theme-apollo 会使用 &lt;code&gt;page.title&lt;/code&gt; 和 &lt;code&gt;page.author&lt;/code&gt; 来配置该标签。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;/2016/05/09/#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt;实际上，Hexo-theme-apollo 只支持两种标题：&lt;code&gt;h1~h3&lt;/code&gt; 大标题，&lt;code&gt;h4~h6&lt;/code&gt; 小标题，也就是说，&lt;code&gt;#&lt;/code&gt; 和 &lt;code&gt;###&lt;/code&gt; 的样式是一样的。之所以这么处理，是因为就个人感觉而言，我们不应该为文章设置过多的层级消耗读者的阅读精力。这相当于强制使用 Hexo-theme-apollo 的用户在写文章时注意文章结构，最多只能使用两层结构。&lt;/p&gt;
 &lt;p&gt;另一个潜在的原因是因为我还没有发现好的样式来处理不同层级的标题，单纯以大小和颜色很容易让页面变得混乱和冗杂。如果你有好的建议，请告诉我:)!&lt;/p&gt;
 &lt;h2 id=&quot;文章摘要&quot;&gt;&lt;a href=&quot;/2016/05/09/#文章摘要&quot; class=&quot;headerlink&quot; title=&quot;文章摘要&quot;&gt;&lt;/a&gt;文章摘要&lt;/h2&gt;&lt;p&gt;如果你想创建文章摘要用于向读者展示文章的核心内容，那么需要在文章摘要之后其他内容之前添加 HTML 注释标签 &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;，使用方法如下图所示：&lt;/p&gt;
@@ -42,7 +43,11 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Meta-Description&quot;&gt;&lt;a href=&quot;/2016/05/09/#Meta-Description&quot; class=&quot;headerlink&quot; title=&quot;Meta Description&quot;&gt;&lt;/a&gt;Meta Description&lt;/h2&gt;&lt;p&gt;如果
+      &lt;h2 id=&quot;Meta-Description&quot;&gt;&lt;a href=&quot;#Meta-Description&quot; class=&quot;headerlink&quot; title=&quot;Meta Description&quot;&gt;&lt;/a&gt;Meta Description&lt;/h2&gt;&lt;p&gt;如果你想设置页面的 meta description 信息，请在每篇 markdown 文件的头部添加 &lt;code&gt;desc&lt;/code&gt; 字段信息——更实用的方式是在 scaffolds 文件夹中，将 &lt;code&gt;desc&lt;/code&gt; 配置到常用模板中去，示例如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;title: Lorem ipsum dolor&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 2015-12-31 14:49:13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;desc: Lorem ipsum dolor sit amet, consectetur.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam saepe ex ut. Deleniti culpa inventore consectetur nam saepe!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;生成结果:&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;content&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;Lorem ipsum dolor sit amet, consectetur.&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;如果没有配置该信息，Hexo-theme-apollo 会使用 &lt;code&gt;page.title&lt;/code&gt; 和 &lt;code&gt;page.author&lt;/code&gt; 来配置该标签。&lt;/p&gt;
     
     </summary>
     
