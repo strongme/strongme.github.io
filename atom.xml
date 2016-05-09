@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://fanqiang.site/"/>
   <updated>2016-05-09T01:23:51.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://fanqiang.site/</id>
   
   <author>
     <name>strongme</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/05/09/hello-world.html"/>
-    <id>http://yoursite.com/2016/05/09/hello-world.html</id>
+    <link href="http://fanqiang.site/2016/05/09/hello-world.html"/>
+    <id>http://fanqiang.site/2016/05/09/hello-world.html</id>
     <published>2016-05-09T01:23:51.000Z</published>
     <updated>2016-05-09T01:23:51.000Z</updated>
     
