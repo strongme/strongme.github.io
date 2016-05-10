@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fanqiang.site/"/>
-  <updated>2016-05-09T03:35:01.000Z</updated>
+  <updated>2016-05-10T01:40:47.000Z</updated>
   <id>http://fanqiang.site/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>教你使用番羽土啬</title>
+    <link href="http://fanqiang.site/2016/05/09/how-to-use-shadowsocks.html"/>
+    <id>http://fanqiang.site/2016/05/09/how-to-use-shadowsocks.html</id>
+    <published>2016-05-09T09:29:45.000Z</published>
+    <updated>2016-05-10T01:40:47.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;科学上网来自Shadowsocks的技术支持&quot;&gt;&lt;a href=&quot;/2016/05/09/#科学上网来自Shadowsocks的技术支持&quot; class=&quot;headerlink&quot; title=&quot;科学上网来自Shadowsocks的技术支持&quot;&gt;&lt;/a&gt;科学上网来自Shadowsocks的技术支持&lt;/h2&gt;&lt;p&gt;Shadowsocks是什么呢，百度之,那你会被告知： &lt;/p&gt;
+&lt;div class=&quot;tip&quot;&gt;&lt;br&gt;根据相关法律法规和政策，部分搜索结果未予显示。&lt;br&gt;&lt;/div&gt;&lt;br&gt;很遗憾的，我们的百度已经封闭了Shadowsocks的大部分信息，而shadowsocks的作者在Github上的仓库也被移除了:&lt;br&gt;&lt;div class=&quot;tip&quot;&gt;&lt;br&gt;Removed according to regulations.&lt;br&gt;&lt;/div&gt;&lt;br&gt;那抛开这些被压制的内容不说，我们可以做点什么呢？&lt;br&gt;## 免费的国外服务器[DigitalOcean]来自哪里？&lt;br&gt;&lt;br&gt;&amp;gt;&lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Student Developer Pack From Github&lt;/a&gt;&lt;br&gt;The best developer tools, free for students&lt;br&gt;&lt;br&gt;要获取到Github提供的这些服务，有以下两个要求：&lt;br&gt;&lt;br&gt;+ 在校大学生有效学生证照片&lt;br&gt;+ .edu学校邮箱&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前往&lt;/a&gt;提交申请，申请理由写的诚恳真实一些是没有问题的，如果被拒绝可以咨询下英语专业的同学，将自己的申请理由写的更有说服力，完成申请即可得到如下一些服务：&lt;br&gt;+ Atom : A hackable text editor for the 21st Century&lt;br&gt;+ AWS : Access to the AWS cloud, free training, and collaboration resources&lt;br&gt;+ Bitnami : Install cloud applications in a single click&lt;br&gt;+ &lt;a href=&quot;http://digitalocean.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;DigitalOcean&lt;/strong&gt;&lt;/a&gt; : Simple cloud hosting, built for developers&lt;br&gt;+ …&lt;br&gt;&lt;br&gt;&lt;div class=&quot;tip&quot;&gt;&lt;br&gt;特别注意：要使用&lt;code&gt;DigitalOcean&lt;/code&gt;服务必需要一张信用卡，不过不会扣钱，&lt;code&gt;Coupon&lt;/code&gt;会有一定量的免费额度，够你折腾啦！&lt;br&gt;&lt;/div&gt;
+
+&lt;p&gt;然后就可以搭建自己的&lt;code&gt;Shadowsocks&lt;/code&gt;服务了。&lt;/p&gt;
+&lt;div class=&quot;tip&quot;&gt;&lt;br&gt;PS：如果有哪位同学是在校的大学生或者研究生或者在接受更高级别的教育，只要你有&lt;code&gt;学生证&lt;/code&gt;以及&lt;code&gt;.edu&lt;/code&gt;邮箱，请联系我！&lt;br&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;那到底如何使用番羽土啬呢？&quot;&gt;&lt;a href=&quot;/2016/05/09/#那到底如何使用番羽土啬呢？&quot; class=&quot;headerlink&quot; title=&quot;那到底如何使用番羽土啬呢？&quot;&gt;&lt;/a&gt;那到底如何使用番羽土啬呢？&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;前往 &lt;a href=&quot;http://fq.strongme.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;fq.strongme.cn&lt;/a&gt;下载&lt;code&gt;shadowsocks&lt;/code&gt;客户端（见顶部导航菜单）&lt;/li&gt;
+&lt;li&gt;下载到本地解压是个小飞机 ✈&lt;/li&gt;
+&lt;li&gt;注册 ️&lt;a href=&quot;http://fq.strongme.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;fq.strongme.cn&lt;/a&gt;的账号，但是需要&lt;code&gt;邀请码&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;注册之后登陆，就可以看到自己的基本信息啦&lt;/li&gt;
+&lt;li&gt;前往节点列表即展示当前可用的&lt;code&gt;ss&lt;/code&gt;节点&lt;/li&gt;
+&lt;li&gt;点击页面上的操作按钮，点击二维码，进入二维码页面&lt;/li&gt;
+&lt;li&gt;右击刚刚打开的小飞机，找到扫描屏幕上的二维码按钮，它便会自动扫描，并将服务器信息自动录入到&lt;code&gt;shadowsocks&lt;/code&gt;客户端&lt;/li&gt;
+&lt;li&gt;设置浏览器，即设置&lt;code&gt;代理地址:127.0.0.1&lt;/code&gt;与&lt;code&gt;端口:1080&lt;/code&gt;，要设置到&lt;code&gt;socks&lt;/code&gt;链接，&lt;code&gt;IE&lt;/code&gt;中的设置方法百度下：&lt;code&gt;IE如何设置代理服务器&lt;/code&gt;，这里注意要把4行都设置好&lt;/li&gt;
+&lt;li&gt;下载个&lt;code&gt;Chrome浏览器&lt;/code&gt;，进入Chrome商店，搜索&lt;code&gt;proxy&lt;/code&gt;，随便安装一款代理设置软件，即可方便的使用&lt;code&gt;Shadowsocks&lt;/code&gt;科学上网啦&lt;/li&gt;
+&lt;li&gt;Chrome中的代理设置好以后，记得还原&lt;code&gt;IE&lt;/code&gt;中的代理设置，之后在&lt;code&gt;Chrome&lt;/code&gt;中自由切换就可以啦&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以上便是使用教程啦。如果有问题&lt;a href=&quot;http://weibo.com/strongwalter&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;微博&lt;/a&gt;找我就可以了。如果你有有效&lt;code&gt;学生证&lt;/code&gt;和&lt;code&gt;.edu&lt;/code&gt;邮箱，也找我呀！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://7pn6lg.com2.z0.glb.clouddn.com/fanqiang_google.gif&quot; alt=&quot;Google&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;科学上网来自Shadowsocks的技术支持&quot;&gt;&lt;a href=&quot;/2016/05/09/#科学上网来自Shadowsocks的技术支持&quot; class=&quot;headerlink&quot; title=&quot;科学上网来自Shadowsocks的技术支持&quot;&gt;&lt;/a&gt;科学上网来自Sh
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Apollo -H</title>
